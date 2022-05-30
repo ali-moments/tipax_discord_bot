@@ -48,13 +48,11 @@ message = {
 	}
 
 
-message['embeds'][0]['description'] = tpax_grabber.get_info(ID)
-message['embeds'][0]['fields'] = tpax_grabber.get_state(ID)
-message['embeds'][0]['timestamp'] = get_time()
-message['embeds'][0]['url'] = f"https://tipaxco.com/tracking?id={ID}"
-
-
 while True:
+    message['embeds'][0]['description'] = tpax_grabber.get_info(ID)
+    message['embeds'][0]['fields'] = tpax_grabber.get_state(ID)
+    message['embeds'][0]['timestamp'] = get_time()
+    message['embeds'][0]['url'] = f"https://tipaxco.com/tracking?id={ID}"
     result = requests.post(url, json = message)
     try:
         result.raise_for_status()
