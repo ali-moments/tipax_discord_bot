@@ -1,0 +1,4 @@
+beautifulsoup4==4.11.1
+discord.py==1.7.3
+requests==2.27.1
+configparser==5.2.0

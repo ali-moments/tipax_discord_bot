@@ -1,0 +1,25 @@
+{
+    "content": null,
+    "embeds": [
+      	{
+        "title": "اطلاعات بسته",
+        "description": "",
+        "url": "",
+        "color": 7995224,
+        "fields": [],
+        "author": {
+        	"name": "tpax-grabber",
+        	"url": "https://github.com/ali-moments",
+        	"icon_url": "https://s5.uupload.ir/files/momento/logo-tipax.jpg"
+        },
+        "footer": {
+        	"text": "visit ali.ir for more stuff",
+          	"icon_url": "https://s5.uupload.ir/files/momento/tumblr_b9a8dab8e5a9cdf6573fc4c328cc3317_04983b8f_1280.jpg"
+        },
+        "timestamp": ""
+      	}
+    ],
+    "username": "TPAX",
+    "avatar_url": "https://s5.uupload.ir/files/momento/logo-tipax.jpg",
+    "attachments": []
+	}
