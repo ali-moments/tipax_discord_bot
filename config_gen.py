@@ -10,5 +10,10 @@ config['time'] = {
     "timer": "7200"
 }
 
+config['custom'] = {
+    "sender": "",
+    "receiver": ""
+}
+
 with open('conf.ini', 'w') as f:
     config.write(f)
