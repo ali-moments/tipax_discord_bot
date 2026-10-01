@@ -1,2 +1,2 @@
-# tipax discord bot
+# tipax discord bot [OutDated]
 وضعیت و اطلاعات بسته شما را در تایم های زمانبندی شده، به دیسکورد ارسال میکند
